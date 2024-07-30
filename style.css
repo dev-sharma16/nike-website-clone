@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* utility classes */
+:root {
+  --primary-text-color: #cdff00;
+  --primary-text-color-dark: #b0db02;
+  --secondary-text-color: #9e9ea0;
+  --background-color: #1f1f21;
+  --padding-inline-section: 20px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  /* color: white; */
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* top banner */
+.topBanner {
+  background-color: black;
+  justify-content: space-between;
+  height: 40px;
+}
+.jordanLogo img {
+  height: 28px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bannerButtons ul {
+  margin-right: 40px;
+}
+.bannerButtons ul li {
+  padding: 15px;
+  font-size: 12px;
+  color: white;
+}
+.bannerButtons ul li a{
+    color: white;
+}
+
+
+/* nac Bar */
+.navBar {
+  height: 60px;
+  background-color: #8a8aaf;
+  justify-content: space-between;
+}
+.nikeLogo img {
+  height: 45px;
+  margin: 10px 27px;
+}
+.navLinks ul li {
+  padding: 12px;
+  font-size: 16px;
+}
+.navLinks ul li a{
+    color: white;
+}
+/* .navLinks ul li:hover{
+    text-decoration: underline;
+    color: black;
+} */
+.searchBox {
+  padding: 27px;
+}
+.searchBox input {
+  border: none;
+  margin-right: 18px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+  height: 35px;
+  border-radius: 24px;
+}
+.fav {
+  padding: 11px 12px;
+  background-color: var(--background-color);
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+}
+.bag {
+  padding: 11px 12px;
+  background-color: var(--background-color);
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+}
+.mainBanner {
+  justify-content: center;
+}
+.bannerImg img {
+  height: 950px;
+}
+
+/* main banner */
+.mainBanner {
+  flex-direction: column;
+}
+.bannerText h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 20px;
+}
+.bannerText p{
+    font-size: 20px;
+}
+.bannerBtn{
+    color: black; 
+    background-color: var(--primary-text-color);
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
