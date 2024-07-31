@@ -56,10 +56,9 @@ ul {
   font-size: 12px;
   color: white;
 }
-.bannerButtons ul li a{
-    color: white;
+.bannerButtons ul li a {
+  color: white;
 }
-
 
 /* nac Bar */
 .navBar {
@@ -75,8 +74,8 @@ ul {
   padding: 12px;
   font-size: 16px;
 }
-.navLinks ul li a{
-    color: white;
+.navLinks ul li a {
+  color: white;
 }
 /* .navLinks ul li:hover{
     text-decoration: underline;
@@ -125,14 +124,103 @@ ul {
   font-size: 100px;
   margin-top: 20px;
 }
-.bannerText p{
-    font-size: 20px;
+.bannerText p {
+  font-size: 20px;
 }
-.bannerBtn{
-    color: black; 
-    background-color: var(--primary-text-color);
-    padding: 10px 18px;
-    border-radius: 25px;
-    margin-top: 25px;
+.bannerBtn {
+  color: black;
+  background-color: var(--primary-text-color);
+  padding: 10px 18px;
+  border-radius: 25px;
+  margin-top: 25px;
 }
 
+/* bigFeature section */
+.Trending{
+  margin-left: 41px;
+  margin-top: 88px;
+  font-size: 30px;
+}
+.bigFeatureSection {
+  flex-direction: column;
+  justify-content: center;
+}
+.bigFeatureSection img {
+  width: 95vw;
+  margin-top: 30px;
+}
+.bigFeatureSectionTxt {
+  flex-direction: column;
+  margin-top: 30px;
+}
+.bigFeatureSectionTxt h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 100px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.bigFeatureSectionBtn a{
+  margin-right: 5px;
+}
+
+/* feature section */
+.Featured {
+  margin-left: 49px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.featuredSection {
+  justify-content: space-evenly;
+  margin: 20px 40px;
+}
+.img1 h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.img2 h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.img3 h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+/* bigFeature 2 section */
+.theLatest{
+  margin-left: 41px;
+  margin-top: 108px;
+  font-size: 30px;
+}
+.bigFeatureSection2 {
+  flex-direction: column;
+  justify-content: center;
+}
+.bigFeatureSection2 img {
+  width: 95vw;
+  margin-top: 30px;
+}
+
+/* spotlight */
+.classicsSpotlights{
+  margin-left: 49px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.slideshow{
+  flex-direction: row;
+  margin: 20px 40px;
+  overflow: scroll;
+ 
+}
+.slided{
+  margin-right: 12px;
+}
+.slided h3{
+  margin-top: 12px;
+  font-size: 25px;
+}
