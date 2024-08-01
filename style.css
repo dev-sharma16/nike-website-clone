@@ -136,7 +136,7 @@ ul {
 }
 
 /* bigFeature section */
-.Trending{
+.Trending {
   margin-left: 41px;
   margin-top: 88px;
   font-size: 30px;
@@ -160,7 +160,7 @@ ul {
   margin-top: -10px;
   margin-bottom: -10px;
 }
-.bigFeatureSectionBtn a{
+.bigFeatureSectionBtn a {
   margin-right: 5px;
 }
 
@@ -191,7 +191,7 @@ ul {
 }
 
 /* bigFeature 2 section */
-.theLatest{
+.theLatest {
   margin-left: 41px;
   margin-top: 108px;
   font-size: 30px;
@@ -206,21 +206,106 @@ ul {
 }
 
 /* spotlight */
-.classicsSpotlights{
+.classicsSpotlights {
   margin-left: 49px;
   margin-top: 100px;
   font-size: 30px;
 }
-.slideshow{
+.slideshow {
   flex-direction: row;
   margin: 20px 40px;
   overflow: scroll;
- 
 }
-.slided{
+.slided {
   margin-right: 12px;
 }
-.slided h3{
+.slided h3 {
   margin-top: 12px;
   font-size: 25px;
+}
+
+/* shop by sports */
+.shopBySport {
+  margin-left: 49px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.shopBySportSection {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  overflow: scroll;
+}
+.slide {
+  margin-right: 12px;
+}
+.slide a {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+.slide h3 {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.slide p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* memberBenefits */
+.memberBenefits {
+  margin-left: 49px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.benefitSlides {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  overflow: scroll;
+}
+.slidss {
+  background-color: rgb(141, 73, 73);
+  position: relative;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  /* height: 700px;
+   */
+  height: 50vh;
+  width: 35vw;
+  /* background: url(.assets/asset26.jpeg); */
+}
+
+/* footer */
+.subFooter {
+  margin: 50px 90px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 110px;
+}
+.linkColumns {
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+.linkColumns a {
+  color: rgba(255, 255, 255, 0.509);
+  font-size: 18px;
+}
+.linkColumns h4{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+
+hr{
+  margin-top: 120px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color:rgba(255, 255, 255, 0.509) ;
+}
+.div{
+  height: 1000px;
 }
